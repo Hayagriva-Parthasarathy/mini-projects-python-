@@ -4,13 +4,13 @@ tot_price=0
 price=0
 product_found = False
 iteration=1
-already_found = False
+#already_found = False
 def calc_amt():
     global tot_price
     global product_found
     global iteration
     global prod
-    global already_found
+    #global already_found
     while True:
         if(iteration ==1):
             cart=input("ADD PRODUCTS TO CART (yes/no):")
